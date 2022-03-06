@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel = "stylesheet" href = "styles.css">
-    <script src = "utils.js"></script>
-    <title>FON Trougao</title>
-  </head>
-  <body>
-    <div class = "container">
-        <div>
-            <input placeholder = "Unesite dubinu algoritma" type = "number" id = "depth"/>
-            <button onclick = "passValues(parseInt(document.getElementById('depth').value))">Zapocni algoritam</button>  
-        </div>
-        
-        <canvas class = "triangle-box" id = "triangle-box" width="600" height="470">
-        </canvas>
 
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="styles.css">
+  <script src="utils.js"></script>
+  <title>FON Trougao</title>
+</head>
+
+<body>
+  <div class="container">
+    <div>
+      <input placeholder="Unesite dubinu algoritma" type="number" id="depth" />
+      <button onclick="passValues(parseInt(document.getElementById('depth').value))">Zapocni algoritam</button>
     </div>
-  </body>
+
+    <canvas class="triangle-box" id="triangle-box" width="600" height="470">
+    </canvas>
+
+  </div>
+</body>
+
 </html>
